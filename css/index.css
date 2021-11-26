@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Menu nav */
+.navbar{
+    background-color: rgb(143, 61, 101);
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo-navbar{
+    width: 200px;
+    height: 80px;
+}
+
+.nav-link{
+    font-size: 23px;
+}
+
+/* Contenedor Categoria */
+.contenedorCategoria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pulsaCategoria{
+    margin-top: 106px;
+    width: 90%;
+    text-align: center;
+    padding-top: 15px;
+    background-color:  rgb(143, 61, 101);
+    opacity: 0.9;
+}
+
+.pulsaCategoria h1{
+    color: white; 
+}
+
+/* Secciones Categorias */
+.contendorCarruselCategorias{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 330px;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover{
+    opacity: 0.6;
+}
+
+.card img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+/* Contactanos */
+.contenedorContactanos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(143, 61, 101);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.redesSociales{
+    width: 50%;
+    height: 100%;
+    color: white;
+    text-align: start;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.redesSociales a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 8px;
+
+}
+
+.redesSociales a:hover{
+    font-size: 28px;
+    color: rgb(7, 252, 19);;
+}
+
+.logoContactanos{
+    width: 50%;
+    text-align: end; 
+}
+
+.logoContactanos img{
+    width: 200px;
+    height: 100px;
+    padding: 12px;
+}
