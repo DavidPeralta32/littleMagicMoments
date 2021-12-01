@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Menu nav */
+.navbar{
+    background-color: rgb(143, 61, 101);
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo-navbar{
+    width: 200px;
+    height: 80px;
+}
+
+.nav-link{
+    font-size: 23px;
+}
+
+
+/* Secciones Categorias */
+.contenedorImagenes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 330px;
+    text-align: center;
+    border: none;
+    margin: 0;
+    margin-top: 106px;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover{
+    opacity: 0.6;
+}
+
+.card img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}

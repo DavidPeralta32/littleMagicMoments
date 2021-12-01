@@ -19,18 +19,19 @@
         <?php
         require_once '../includes/menuSecciones.php';
         $oMenuseccion = new menuSecciones();
-        echo $oMenuseccion->menuSeccion("XV Años");
+        echo $oMenuseccion->menuSeccion("Otros");
         ?>
 
+        <!-- Card Imagenes -->
         <section>
             <div class="contenedorImagenes">
                 <?php
-                $nTotalImagenes = 10; 
+                $nTotalImagenes = 22; 
                 for ($i=1; $i < $nTotalImagenes ; $i++) { 
                     echo "<div class='card'>
                         <div class='card-body'>  
-                            <img src='../img/XV/$i.jpg' class='card-img-top'>
-                            <p class='card-text'>XV Años</p>
+                            <img src='../img/Otros/$i.jpg' class='card-img-top'>
+                            <p class='card-text'>Arreglo #$i</p>
                         </div>
                     </div>";
                 }              
