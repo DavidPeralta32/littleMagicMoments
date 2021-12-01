@@ -22,6 +22,7 @@
         echo $oMenuseccion->menuSeccion("XV Años");
         ?>
 
+        <!-- seccion carrusel imagenes -->
         <section>
             <div class="contenedorImagenes">
                 <?php
@@ -30,13 +31,19 @@
                     echo "<div class='card'>
                         <div class='card-body'>  
                             <img src='../img/XV/$i.jpg' class='card-img-top'>
-                            <p class='card-text'>XV Años</p>
+                            <p class='card-text'>Arreglos de XV Años #$i</p>
                         </div>
                     </div>";
                 }              
                ?>
             </div>
         </section>
+
+
+        <!-- Seccion de contactos -->
+        <?php
+            include_once '../includes/footerSecciones.php'
+        ?>
     </div>
 
 

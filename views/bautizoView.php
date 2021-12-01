@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/xvView.css">
     <script src="https://kit.fontawesome.com/32258d33f0.js" crossorigin="anonymous"></script>
-    <title>XV Años</title>
+    <title>Bautizo</title>
 </head>
 
 <body>
@@ -38,6 +38,11 @@
                ?>
             </div>
         </section>
+
+        <!-- Seccion de contactos -->
+        <?php
+            include_once '../includes/footerSecciones.php'
+        ?>
     </div>
 
 
